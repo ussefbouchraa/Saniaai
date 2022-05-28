@@ -1,0 +1,129 @@
+# Translation of Themes - Cartable in Arabic
+# This file is distributed under the same license as the Themes - Cartable package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-02-07 16:13:08+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n % 100 >= 3 && n % 100 <= 10) ? 3 : ((n % 100 >= 11 && n % 100 <= 99) ? 4 : 5))));\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ar\n"
+"Project-Id-Version: Themes - Cartable\n"
+
+#. Description of the theme
+msgid "Cartable is a stylish and modern eCommerce WordPress theme with plenty of functionality to let you sell your products online. There’s an outstanding homepage with many sections and page templates. View the Cartable Pro demo https://demo.speciatheme.com/pro/?theme=cartable"
+msgstr "Cartable عبارة عن قالب WordPress أنيق وعصري للتجارة الإلكترونية مع الكثير من الوظائف للسماح لك ببيع منتجاتك عبر الإنترنت. هناك أقسام بارزة في الصفحات و الصفحة الرئيسية. شاهد العرض التوضيحي لـ Cartable Pro https://demo.speciatheme.com/pro/?theme=cartable"
+
+#. Theme Name of the theme
+msgid "Cartable"
+msgstr "Cartable"
+
+#: inc/customize/cartable-premium.php:27
+msgid "Support Center"
+msgstr "مركز الدعم"
+
+#: inc/customize/cartable-premium.php:25
+msgid "Buy Now"
+msgstr "اشتري الآن"
+
+#: inc/customize/cartable-premium.php:23
+msgid "Premium Demo"
+msgstr "نسخة تجريبية Premium"
+
+#: inc/customize/cartable-premium.php:7
+msgid "Upgrade to Premium"
+msgstr "الترقية إلى Premium"
+
+#. Template Name of the theme
+msgid "Homepage One"
+msgstr "الصفحة الرئيسية واحد"
+
+#: sections/cartable-product.php:45
+msgid "Sale!"
+msgstr "تخفيضات!"
+
+#: sections/cartable-navigation.php:94
+msgid "0"
+msgstr "0"
+
+#: sections/cartable-navigation.php:72
+msgid "Type To Search"
+msgstr "اكتب لإجراء البحث"
+
+#: sections/cartable-navigation.php:70
+msgid "Site Search"
+msgstr "البحث في الموقع"
+
+#: sections/cartable-navigation.php:55
+msgid "Search"
+msgstr "بحث"
+
+#: sections/cartable-navigation.php:39
+msgid "Find your product"
+msgstr "اعثر على المنتج الخاص بك"
+
+#: sections/cartable-navigation.php:37 sections/cartable-navigation.php:71
+msgid "Search for:"
+msgstr "البحث عن:"
+
+#: inc/customize/cartable-product.php:149
+msgid "Select number of Products"
+msgstr "حدد عدد المنتج "
+
+#: inc/customize/cartable-product.php:130
+msgid "Contents"
+msgstr "المحتويات"
+
+#: inc/customize/cartable-product.php:109
+msgid "Section Description"
+msgstr "وصف القسم"
+
+#: inc/customize/cartable-product.php:88
+msgid "Section Title"
+msgstr "عنوان القسم"
+
+#: inc/customize/cartable-product.php:69
+msgid "Header"
+msgstr "الترويسة"
+
+#: inc/customize/cartable-product.php:50
+msgid "Hide / Show"
+msgstr "إخفاء / عرض "
+
+#: inc/customize/cartable-product.php:30
+msgid "Setting"
+msgstr "إعداد"
+
+#: inc/customize/cartable-product.php:13
+msgid "Product Section"
+msgstr "قسم المنتج"
+
+#: inc/customize/cartable-header-section.php:49
+msgid "Hide / Show Categories"
+msgstr "إخفاء / عرض التصنيفات"
+
+#: inc/customize/cartable-header-section.php:29
+#: sections/cartable-navigation.php:42 sections/cartable-navigation.php:189
+msgid "All Categories"
+msgstr "كل التصنيفات"
+
+#: inc/customize/cartable-header-section.php:11
+msgid "Header Navigation"
+msgstr "ترويسة التنقل"
+
+#: header.php:21
+msgid "Skip to content"
+msgstr "التجاوز إلى المحتوى"
+
+#. Theme URI of the theme
+msgid "https://speciatheme.com/cartable-free/"
+msgstr "https://speciatheme.com/cartable-free/"
+
+#. Author URI of the theme
+msgid "https://speciatheme.com/"
+msgstr "https://speciatheme.com/"
+
+#. Author of the theme
+msgid "Specia"
+msgstr "Specia"

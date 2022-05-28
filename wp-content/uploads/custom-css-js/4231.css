@@ -1,0 +1,16 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+#order_review{display:none;}
+#order_review_heading{display:none;}
+#customer_details .woocommerce-additional-fields{display:none;}
+.woocommerce-billing-fields h3{display:none;}
+
+.woocommerce .woocommerce-checkout .col2-set .col-1,
+.woocommerce .woocommerce-checkout .col2-set .col-2 {
+    width: 100% !important;
+}
+
+.woocommerce .woocommerce-checkout .col2-set .col-1 {
+    margin-bottom: 30px;!important;
+}</style>
+<!-- end Simple Custom CSS and JS -->

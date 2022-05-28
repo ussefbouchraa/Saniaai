@@ -1,0 +1,20 @@
+2022-05-11T18:42:46+00:00 CRITICAL Uncaught Error: Attempt to modify property "posts" on null in C:\xampp\htdocs\sani3i\wp-content\plugins\popup-maker\classes\Site\Popups.php:173
+Stack trace:
+#0 C:\xampp\htdocs\sani3i\wp-content\plugins\popup-maker\classes\Site\Popups.php(109): PUM_Site_Popups::preload_popup(Object(PUM_Model_Popup))
+#1 C:\xampp\htdocs\sani3i\wp-includes\class-wp-hook.php(307): PUM_Site_Popups::load_popups('')
+#2 C:\xampp\htdocs\sani3i\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\sani3i\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\sani3i\wp-includes\script-loader.php(2115): do_action('wp_enqueue_scri...')
+#5 C:\xampp\htdocs\sani3i\wp-includes\class-wp-customize-manager.php(454): wp_enqueue_scripts()
+#6 C:\xampp\htdocs\sani3i\wp-includes\class-wp-customize-manager.php(551): WP_Customize_Manager->wp_die(0, 'Non-existent ch...')
+#7 C:\xampp\htdocs\sani3i\wp-includes\class-wp-hook.php(307): WP_Customize_Manager->setup_theme('')
+#8 C:\xampp\htdocs\sani3i\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#9 C:\xampp\htdocs\sani3i\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\sani3i\wp-settings.php(519): do_action('setup_theme')
+#11 C:\xampp\htdocs\sani3i\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\sani3i\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\sani3i\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\sani3i\index.php(17): require('C:\\xampp\\htdocs...')
+#15 {main}
+  thrown in C:\xampp\htdocs\sani3i\wp-content\plugins\popup-maker\classes\Site\Popups.php on line 173
+

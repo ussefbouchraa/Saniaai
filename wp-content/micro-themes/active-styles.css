@@ -1,0 +1,53 @@
+/*  MICROTHEMER STYLES  */
+
+
+/*= General =================== */
+
+/** General >> Place order **/
+#place_order {
+	width: 454px !important;
+	top: -40px !important;
+}
+
+
+/*( < 980 )*/
+@media (max-width: 979.98px) {
+
+	/*= General =================== */
+
+	/** General >> Place order **/
+	#place_order {
+	width: 390px !important;
+}
+
+
+}
+
+
+/*( < 768 )*/
+@media (max-width: 767.98px) {
+
+	/*= General =================== */
+
+	/** General >> Place order **/
+	#place_order {
+	width: 645px !important;
+}
+
+
+}
+
+
+/*( < 480 )*/
+@media (max-width: 479.98px) {
+
+	/*= General =================== */
+
+	/** General >> Place order **/
+	#place_order {
+	width: 416px !important;
+}
+
+
+}
+

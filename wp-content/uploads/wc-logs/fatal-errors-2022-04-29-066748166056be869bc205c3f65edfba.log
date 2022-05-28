@@ -1,0 +1,336 @@
+2022-04-29T03:46:59+00:00 CRITICAL Uncaught DivisionByZeroError: Division by zero in C:\xampp\htdocs\sani3i\wp-admin\includes\class-custom-image-header.php:1278
+Stack trace:
+#0 C:\xampp\htdocs\sani3i\wp-admin\includes\class-custom-image-header.php(1384): Custom_Image_Header->get_header_dimensions(Array)
+#1 C:\xampp\htdocs\sani3i\wp-includes\class-wp-hook.php(307): Custom_Image_Header->ajax_header_crop('')
+#2 C:\xampp\htdocs\sani3i\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\sani3i\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\sani3i\wp-admin\admin-ajax.php(187): do_action('wp_ajax_custom-...')
+#5 {main}
+  thrown in C:\xampp\htdocs\sani3i\wp-admin\includes\class-custom-image-header.php on line 1278
+
+2022-04-29T05:38:28+00:00 CRITICAL Uncaught ValueError: Unknown format specifier "a" in C:\xampp\htdocs\sani3i\wp-includes\nav-menu-template.php:277
+Stack trace:
+#0 C:\xampp\htdocs\sani3i\wp-includes\nav-menu-template.php(277): sprintf('<ul id="%1$s" c...', 'top-menu', 'menu', '<li id="menu-it...')
+#1 C:\xampp\htdocs\sani3i\wp-content\themes\ecommerce-star\template-parts\navigation\navigation-top.php(33): wp_nav_menu(Object(stdClass))
+#2 C:\xampp\htdocs\sani3i\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\sani3i\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', false, Array)
+#4 C:\xampp\htdocs\sani3i\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#5 C:\xampp\htdocs\sani3i\wp-content\themes\ecommerce-star\inc\template-tags.php(784): get_template_part('template-parts/...', 'top')
+#6 C:\xampp\htdocs\sani3i\wp-content\themes\ecommerce-star\header.php(72): ecommerce_star_woocommerce_menu()
+#7 C:\xampp\htdocs\sani3i\wp-includes\template.php(770): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\sani3i\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', true, Array)
+#9 C:\xampp\htdocs\sani3i\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#10 C:\xampp\htdocs\sani3i\wp-content\themes\ecommerce-star\page.php(17): get_header()
+#11 C:\xampp\htdocs\sani3i\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\sani3i\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\sani3i\index.php(17): require('C:\\xampp\\htdocs...')
+#14 {main}
+  thrown in C:\xampp\htdocs\sani3i\wp-includes\nav-menu-template.php on line 277
+
+2022-04-29T05:38:50+00:00 CRITICAL Uncaught ValueError: Unknown format specifier "a" in C:\xampp\htdocs\sani3i\wp-includes\nav-menu-template.php:277
+Stack trace:
+#0 C:\xampp\htdocs\sani3i\wp-includes\nav-menu-template.php(277): sprintf('<ul id="%1$s" c...', 'top-menu', 'menu', '<li id="menu-it...')
+#1 C:\xampp\htdocs\sani3i\wp-content\themes\ecommerce-star\template-parts\navigation\navigation-top.php(33): wp_nav_menu(Object(stdClass))
+#2 C:\xampp\htdocs\sani3i\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\sani3i\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', false, Array)
+#4 C:\xampp\htdocs\sani3i\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#5 C:\xampp\htdocs\sani3i\wp-content\themes\ecommerce-star\inc\template-tags.php(784): get_template_part('template-parts/...', 'top')
+#6 C:\xampp\htdocs\sani3i\wp-content\themes\ecommerce-star\header.php(72): ecommerce_star_woocommerce_menu()
+#7 C:\xampp\htdocs\sani3i\wp-includes\template.php(770): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\sani3i\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', true, Array)
+#9 C:\xampp\htdocs\sani3i\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#10 C:\xampp\htdocs\sani3i\wp-content\themes\ecommerce-star\page.php(17): get_header()
+#11 C:\xampp\htdocs\sani3i\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\sani3i\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\sani3i\index.php(17): require('C:\\xampp\\htdocs...')
+#14 {main}
+  thrown in C:\xampp\htdocs\sani3i\wp-includes\nav-menu-template.php on line 277
+
+2022-04-29T05:46:05+00:00 CRITICAL Uncaught Error: Call to undefined function clothing_store_fonts_url() in C:\xampp\htdocs\sani3i\wp-content\themes\t-shirt-clothing\functions.php:61
+Stack trace:
+#0 C:\xampp\htdocs\sani3i\wp-includes\class-wp-hook.php(307): t_shirt_clothing_setup('')
+#1 C:\xampp\htdocs\sani3i\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\sani3i\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\sani3i\wp-settings.php(565): do_action('after_setup_the...')
+#4 C:\xampp\htdocs\sani3i\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sani3i\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\sani3i\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\sani3i\wp-admin\themes.php(10): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\sani3i\wp-content\themes\t-shirt-clothing\functions.php on line 61
+
+2022-04-29T05:46:30+00:00 CRITICAL Uncaught Error: Call to undefined function clothing_store_fonts_url() in C:\xampp\htdocs\sani3i\wp-content\themes\t-shirt-clothing\functions.php:61
+Stack trace:
+#0 C:\xampp\htdocs\sani3i\wp-includes\class-wp-hook.php(307): t_shirt_clothing_setup('')
+#1 C:\xampp\htdocs\sani3i\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\sani3i\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\sani3i\wp-settings.php(565): do_action('after_setup_the...')
+#4 C:\xampp\htdocs\sani3i\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sani3i\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\sani3i\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\sani3i\wp-content\themes\t-shirt-clothing\functions.php on line 61
+
+2022-04-29T05:47:30+00:00 CRITICAL Uncaught Error: Call to undefined function clothing_store_fonts_url() in C:\xampp\htdocs\sani3i\wp-content\themes\t-shirt-clothing\functions.php:61
+Stack trace:
+#0 C:\xampp\htdocs\sani3i\wp-includes\class-wp-hook.php(307): t_shirt_clothing_setup('')
+#1 C:\xampp\htdocs\sani3i\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\sani3i\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\sani3i\wp-settings.php(565): do_action('after_setup_the...')
+#4 C:\xampp\htdocs\sani3i\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sani3i\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\sani3i\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\sani3i\wp-content\themes\t-shirt-clothing\functions.php on line 61
+
+2022-04-29T05:47:37+00:00 CRITICAL Uncaught Error: Call to undefined function clothing_store_fonts_url() in C:\xampp\htdocs\sani3i\wp-content\themes\t-shirt-clothing\functions.php:61
+Stack trace:
+#0 C:\xampp\htdocs\sani3i\wp-includes\class-wp-hook.php(307): t_shirt_clothing_setup('')
+#1 C:\xampp\htdocs\sani3i\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\sani3i\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\sani3i\wp-settings.php(565): do_action('after_setup_the...')
+#4 C:\xampp\htdocs\sani3i\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sani3i\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\sani3i\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\sani3i\wp-content\themes\t-shirt-clothing\functions.php on line 61
+
+2022-04-29T05:47:44+00:00 CRITICAL Uncaught Error: Call to undefined function clothing_store_fonts_url() in C:\xampp\htdocs\sani3i\wp-content\themes\t-shirt-clothing\functions.php:61
+Stack trace:
+#0 C:\xampp\htdocs\sani3i\wp-includes\class-wp-hook.php(307): t_shirt_clothing_setup('')
+#1 C:\xampp\htdocs\sani3i\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\sani3i\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\sani3i\wp-settings.php(565): do_action('after_setup_the...')
+#4 C:\xampp\htdocs\sani3i\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sani3i\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\sani3i\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\sani3i\wp-content\themes\t-shirt-clothing\functions.php on line 61
+
+2022-04-29T05:48:22+00:00 CRITICAL Uncaught Error: Call to undefined function clothing_store_fonts_url() in C:\xampp\htdocs\sani3i\wp-content\themes\t-shirt-clothing\functions.php:61
+Stack trace:
+#0 C:\xampp\htdocs\sani3i\wp-includes\class-wp-hook.php(307): t_shirt_clothing_setup('')
+#1 C:\xampp\htdocs\sani3i\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\sani3i\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\sani3i\wp-settings.php(565): do_action('after_setup_the...')
+#4 C:\xampp\htdocs\sani3i\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sani3i\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\sani3i\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\sani3i\wp-admin\themes.php(10): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\sani3i\wp-content\themes\t-shirt-clothing\functions.php on line 61
+
+2022-04-29T05:48:28+00:00 CRITICAL Uncaught Error: Call to undefined function clothing_store_fonts_url() in C:\xampp\htdocs\sani3i\wp-content\themes\t-shirt-clothing\functions.php:61
+Stack trace:
+#0 C:\xampp\htdocs\sani3i\wp-includes\class-wp-hook.php(307): t_shirt_clothing_setup('')
+#1 C:\xampp\htdocs\sani3i\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\sani3i\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\sani3i\wp-settings.php(565): do_action('after_setup_the...')
+#4 C:\xampp\htdocs\sani3i\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sani3i\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\sani3i\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\sani3i\wp-admin\index.php(10): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\sani3i\wp-content\themes\t-shirt-clothing\functions.php on line 61
+
+2022-04-29T05:48:30+00:00 CRITICAL Uncaught Error: Call to undefined function clothing_store_fonts_url() in C:\xampp\htdocs\sani3i\wp-content\themes\t-shirt-clothing\functions.php:61
+Stack trace:
+#0 C:\xampp\htdocs\sani3i\wp-includes\class-wp-hook.php(307): t_shirt_clothing_setup('')
+#1 C:\xampp\htdocs\sani3i\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\sani3i\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\sani3i\wp-settings.php(565): do_action('after_setup_the...')
+#4 C:\xampp\htdocs\sani3i\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sani3i\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\sani3i\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\sani3i\wp-content\themes\t-shirt-clothing\functions.php on line 61
+
+2022-04-29T05:48:45+00:00 CRITICAL Uncaught Error: Call to undefined function clothing_store_fonts_url() in C:\xampp\htdocs\sani3i\wp-content\themes\t-shirt-clothing\functions.php:61
+Stack trace:
+#0 C:\xampp\htdocs\sani3i\wp-includes\class-wp-hook.php(307): t_shirt_clothing_setup('')
+#1 C:\xampp\htdocs\sani3i\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\sani3i\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\sani3i\wp-settings.php(565): do_action('after_setup_the...')
+#4 C:\xampp\htdocs\sani3i\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sani3i\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\sani3i\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\sani3i\wp-admin\update.php(16): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\sani3i\wp-content\themes\t-shirt-clothing\functions.php on line 61
+
+2022-04-29T05:48:55+00:00 CRITICAL Uncaught Error: Call to undefined function clothing_store_fonts_url() in C:\xampp\htdocs\sani3i\wp-content\themes\t-shirt-clothing\functions.php:61
+Stack trace:
+#0 C:\xampp\htdocs\sani3i\wp-includes\class-wp-hook.php(307): t_shirt_clothing_setup('')
+#1 C:\xampp\htdocs\sani3i\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\sani3i\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\sani3i\wp-settings.php(565): do_action('after_setup_the...')
+#4 C:\xampp\htdocs\sani3i\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sani3i\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\sani3i\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\sani3i\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\sani3i\wp-content\themes\t-shirt-clothing\functions.php on line 61
+
+2022-04-29T05:49:55+00:00 CRITICAL Uncaught Error: Call to undefined function clothing_store_fonts_url() in C:\xampp\htdocs\sani3i\wp-content\themes\t-shirt-clothing\functions.php:61
+Stack trace:
+#0 C:\xampp\htdocs\sani3i\wp-includes\class-wp-hook.php(307): t_shirt_clothing_setup('')
+#1 C:\xampp\htdocs\sani3i\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\sani3i\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\sani3i\wp-settings.php(565): do_action('after_setup_the...')
+#4 C:\xampp\htdocs\sani3i\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sani3i\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\sani3i\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\sani3i\wp-admin\index.php(10): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\sani3i\wp-content\themes\t-shirt-clothing\functions.php on line 61
+
+2022-04-29T05:50:41+00:00 CRITICAL Uncaught Error: Call to undefined function clothing_store_fonts_url() in C:\xampp\htdocs\sani3i\wp-content\themes\t-shirt-clothing\functions.php:61
+Stack trace:
+#0 C:\xampp\htdocs\sani3i\wp-includes\class-wp-hook.php(307): t_shirt_clothing_setup('')
+#1 C:\xampp\htdocs\sani3i\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\sani3i\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\sani3i\wp-settings.php(565): do_action('after_setup_the...')
+#4 C:\xampp\htdocs\sani3i\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sani3i\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\sani3i\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\sani3i\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\sani3i\wp-content\themes\t-shirt-clothing\functions.php on line 61
+
+2022-04-29T05:51:15+00:00 CRITICAL Uncaught Error: Call to undefined function clothing_store_fonts_url() in C:\xampp\htdocs\sani3i\wp-content\themes\t-shirt-clothing\functions.php:61
+Stack trace:
+#0 C:\xampp\htdocs\sani3i\wp-includes\class-wp-hook.php(307): t_shirt_clothing_setup('')
+#1 C:\xampp\htdocs\sani3i\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\sani3i\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\sani3i\wp-settings.php(565): do_action('after_setup_the...')
+#4 C:\xampp\htdocs\sani3i\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sani3i\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\sani3i\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\sani3i\wp-admin\update.php(16): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\sani3i\wp-content\themes\t-shirt-clothing\functions.php on line 61
+
+2022-04-29T05:52:13+00:00 CRITICAL Uncaught Error: Call to undefined function clothing_store_fonts_url() in C:\xampp\htdocs\sani3i\wp-content\themes\t-shirt-clothing\functions.php:61
+Stack trace:
+#0 C:\xampp\htdocs\sani3i\wp-includes\class-wp-hook.php(307): t_shirt_clothing_setup('')
+#1 C:\xampp\htdocs\sani3i\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\sani3i\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\sani3i\wp-settings.php(565): do_action('after_setup_the...')
+#4 C:\xampp\htdocs\sani3i\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sani3i\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\sani3i\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\sani3i\wp-admin\index.php(10): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\sani3i\wp-content\themes\t-shirt-clothing\functions.php on line 61
+
+2022-04-29T05:53:17+00:00 CRITICAL Uncaught Error: Call to undefined function clothing_store_fonts_url() in C:\xampp\htdocs\sani3i\wp-content\themes\t-shirt-clothing\functions.php:61
+Stack trace:
+#0 C:\xampp\htdocs\sani3i\wp-includes\class-wp-hook.php(307): t_shirt_clothing_setup('')
+#1 C:\xampp\htdocs\sani3i\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\sani3i\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\sani3i\wp-settings.php(565): do_action('after_setup_the...')
+#4 C:\xampp\htdocs\sani3i\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sani3i\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\sani3i\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\sani3i\wp-admin\index.php(10): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\sani3i\wp-content\themes\t-shirt-clothing\functions.php on line 61
+
+2022-04-29T05:53:20+00:00 CRITICAL Uncaught Error: Call to undefined function clothing_store_fonts_url() in C:\xampp\htdocs\sani3i\wp-content\themes\t-shirt-clothing\functions.php:61
+Stack trace:
+#0 C:\xampp\htdocs\sani3i\wp-includes\class-wp-hook.php(307): t_shirt_clothing_setup('')
+#1 C:\xampp\htdocs\sani3i\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\sani3i\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\sani3i\wp-settings.php(565): do_action('after_setup_the...')
+#4 C:\xampp\htdocs\sani3i\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sani3i\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\sani3i\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\sani3i\wp-admin\index.php(10): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\sani3i\wp-content\themes\t-shirt-clothing\functions.php on line 61
+
+2022-04-29T05:53:34+00:00 CRITICAL Uncaught Error: Call to undefined function clothing_store_fonts_url() in C:\xampp\htdocs\sani3i\wp-content\themes\t-shirt-clothing\functions.php:61
+Stack trace:
+#0 C:\xampp\htdocs\sani3i\wp-includes\class-wp-hook.php(307): t_shirt_clothing_setup('')
+#1 C:\xampp\htdocs\sani3i\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\sani3i\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\sani3i\wp-settings.php(565): do_action('after_setup_the...')
+#4 C:\xampp\htdocs\sani3i\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sani3i\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\sani3i\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\sani3i\wp-admin\index.php(10): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\sani3i\wp-content\themes\t-shirt-clothing\functions.php on line 61
+
+2022-04-29T05:53:56+00:00 CRITICAL Uncaught Error: Call to undefined function clothing_store_fonts_url() in C:\xampp\htdocs\sani3i\wp-content\themes\t-shirt-clothing\functions.php:61
+Stack trace:
+#0 C:\xampp\htdocs\sani3i\wp-includes\class-wp-hook.php(307): t_shirt_clothing_setup('')
+#1 C:\xampp\htdocs\sani3i\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\sani3i\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\sani3i\wp-settings.php(565): do_action('after_setup_the...')
+#4 C:\xampp\htdocs\sani3i\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sani3i\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\sani3i\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\sani3i\wp-admin\index.php(10): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\sani3i\wp-content\themes\t-shirt-clothing\functions.php on line 61
+
+2022-04-29T06:38:59+00:00 CRITICAL Uncaught Error: Call to undefined function ecommerce_solution_font_url() in C:\xampp\htdocs\sani3i\wp-content\themes\shopping-solution\functions.php:40
+Stack trace:
+#0 C:\xampp\htdocs\sani3i\wp-includes\class-wp-hook.php(307): shopping_solution_setup('')
+#1 C:\xampp\htdocs\sani3i\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\sani3i\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\sani3i\wp-settings.php(565): do_action('after_setup_the...')
+#4 C:\xampp\htdocs\sani3i\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sani3i\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\sani3i\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\sani3i\wp-content\themes\shopping-solution\functions.php on line 40
+
+2022-04-29T06:39:01+00:00 CRITICAL Uncaught Error: Call to undefined function ecommerce_solution_font_url() in C:\xampp\htdocs\sani3i\wp-content\themes\shopping-solution\functions.php:40
+Stack trace:
+#0 C:\xampp\htdocs\sani3i\wp-includes\class-wp-hook.php(307): shopping_solution_setup('')
+#1 C:\xampp\htdocs\sani3i\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\sani3i\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\sani3i\wp-settings.php(565): do_action('after_setup_the...')
+#4 C:\xampp\htdocs\sani3i\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sani3i\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\sani3i\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\sani3i\wp-content\themes\shopping-solution\functions.php on line 40
+
+2022-04-29T06:39:02+00:00 CRITICAL Uncaught Error: Call to undefined function ecommerce_solution_font_url() in C:\xampp\htdocs\sani3i\wp-content\themes\shopping-solution\functions.php:40
+Stack trace:
+#0 C:\xampp\htdocs\sani3i\wp-includes\class-wp-hook.php(307): shopping_solution_setup('')
+#1 C:\xampp\htdocs\sani3i\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\sani3i\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\sani3i\wp-settings.php(565): do_action('after_setup_the...')
+#4 C:\xampp\htdocs\sani3i\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sani3i\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\sani3i\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\sani3i\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\sani3i\wp-content\themes\shopping-solution\functions.php on line 40
+
+2022-04-29T07:15:45+00:00 CRITICAL Uncaught Error: Failed opening required 'C:\xampp\htdocs\sani3i/wp-content/themes/food-grocery-store/inc/tgm/class-tgm-plugin-activation.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\sani3i\wp-content\themes\online-grocery-mart\inc\tgm\tgm.php:3
+Stack trace:
+#0 C:\xampp\htdocs\sani3i\wp-content\themes\online-grocery-mart\functions.php(349): require()
+#1 C:\xampp\htdocs\sani3i\wp-settings.php(555): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sani3i\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\sani3i\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\sani3i\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sani3i\wp-admin\themes.php(10): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\sani3i\wp-content\themes\online-grocery-mart\inc\tgm\tgm.php on line 3
+
+2022-04-29T07:15:55+00:00 CRITICAL Uncaught Error: Failed opening required 'C:\xampp\htdocs\sani3i/wp-content/themes/food-grocery-store/inc/tgm/class-tgm-plugin-activation.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\sani3i\wp-content\themes\online-grocery-mart\inc\tgm\tgm.php:3
+Stack trace:
+#0 C:\xampp\htdocs\sani3i\wp-content\themes\online-grocery-mart\functions.php(349): require()
+#1 C:\xampp\htdocs\sani3i\wp-settings.php(555): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sani3i\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\sani3i\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\sani3i\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sani3i\wp-admin\themes.php(10): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\sani3i\wp-content\themes\online-grocery-mart\inc\tgm\tgm.php on line 3
+
